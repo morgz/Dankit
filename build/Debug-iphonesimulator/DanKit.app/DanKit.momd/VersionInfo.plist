@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSManagedObjectModel_CurrentVersionName</key>
+	<string>DanKit</string>
+	<key>NSManagedObjectModel_VersionHashes</key>
+	<dict>
+		<key>DanKit</key>
+		<dict>
+			<key>Authentication</key>
+			<data>
+			QvlguOpt5Xtixhg51tHrvpOzNJzrwkIFF29WBpfjEhw=
+			</data>
+			<key>User</key>
+			<data>
+			h926+HmqeJxdUZ9I/M8omrzkLoR0KMoBpZ8tiiH2ge4=
+			</data>
+		</dict>
+	</dict>
+</dict>
+</plist>

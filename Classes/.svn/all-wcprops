@@ -1,0 +1,581 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/dankit-ios/!svn/ver/3/DanKit/Classes
+END
+ASIHTTPRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/dankit-ios/!svn/ver/3/DanKit/Classes/ASIHTTPRequest.m
+END
+ASINetworkQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/dankit-ios/!svn/ver/3/DanKit/Classes/ASINetworkQueue.h
+END
+AQGridViewCell+AQGridViewCellPrivate.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/dankit-ios/!svn/ver/3/DanKit/Classes/AQGridViewCell+AQGridViewCellPrivate.h
+END
+ASIHTTPRequest+DanKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/dankit-ios/!svn/ver/3/DanKit/Classes/ASIHTTPRequest+DanKit.h
+END
+UserParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/dankit-ios/!svn/ver/3/DanKit/Classes/UserParser.h
+END
+AQGridViewData.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/dankit-ios/!svn/ver/3/DanKit/Classes/AQGridViewData.h
+END
+DateHelpers.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/dankit-ios/!svn/ver/3/DanKit/Classes/DateHelpers.h
+END
+ASINetworkQueue.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/dankit-ios/!svn/ver/3/DanKit/Classes/ASINetworkQueue.m
+END
+UIHelpers.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/dankit-ios/!svn/ver/3/DanKit/Classes/UIHelpers.h
+END
+UserParser.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/dankit-ios/!svn/ver/3/DanKit/Classes/UserParser.m
+END
+AQGridViewData.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/dankit-ios/!svn/ver/3/DanKit/Classes/AQGridViewData.m
+END
+Helpers.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/dankit-ios/!svn/ver/3/DanKit/Classes/Helpers.h
+END
+ASIFormDataRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/dankit-ios/!svn/ver/3/DanKit/Classes/ASIFormDataRequest.h
+END
+DateHelpers.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/dankit-ios/!svn/ver/3/DanKit/Classes/DateHelpers.m
+END
+UIHelpers.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/dankit-ios/!svn/ver/3/DanKit/Classes/UIHelpers.m
+END
+ASIFormDataRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/dankit-ios/!svn/ver/3/DanKit/Classes/ASIFormDataRequest.m
+END
+UserAuthenticationViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/dankit-ios/!svn/ver/3/DanKit/Classes/UserAuthenticationViewController.xib
+END
+UIColor+AQGridView.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/dankit-ios/!svn/ver/3/DanKit/Classes/UIColor+AQGridView.h
+END
+ASIHTTPRequestConfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/dankit-ios/!svn/ver/3/DanKit/Classes/ASIHTTPRequestConfig.h
+END
+CurrencyHelpers.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/dankit-ios/!svn/ver/3/DanKit/Classes/CurrencyHelpers.h
+END
+UserAuthenticationViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/dankit-ios/!svn/ver/3/DanKit/Classes/UserAuthenticationViewController.h
+END
+UIColor+AQGridView.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/dankit-ios/!svn/ver/3/DanKit/Classes/UIColor+AQGridView.m
+END
+UserGridViewCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/dankit-ios/!svn/ver/3/DanKit/Classes/UserGridViewCell.h
+END
+CurrencyHelpers.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/dankit-ios/!svn/ver/3/DanKit/Classes/CurrencyHelpers.m
+END
+UIViewController+DanKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/dankit-ios/!svn/ver/3/DanKit/Classes/UIViewController+DanKit.h
+END
+UserAuthenticationViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/dankit-ios/!svn/ver/3/DanKit/Classes/UserAuthenticationViewController.m
+END
+UserGridViewCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/dankit-ios/!svn/ver/3/DanKit/Classes/UserGridViewCell.m
+END
+ASICacheDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/dankit-ios/!svn/ver/3/DanKit/Classes/ASICacheDelegate.h
+END
+UsersViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/dankit-ios/!svn/ver/3/DanKit/Classes/UsersViewController.xib
+END
+FBLoginDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/dankit-ios/!svn/ver/3/DanKit/Classes/FBLoginDialog.h
+END
+AQGridView+CellLocationDelegation.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/dankit-ios/!svn/ver/3/DanKit/Classes/AQGridView+CellLocationDelegation.h
+END
+AQGridViewCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/dankit-ios/!svn/ver/3/DanKit/Classes/AQGridViewCell.h
+END
+ATMProgressLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/dankit-ios/!svn/ver/3/DanKit/Classes/ATMProgressLayer.h
+END
+TimeEntryFormatter.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/dankit-ios/!svn/ver/3/DanKit/Classes/TimeEntryFormatter.h
+END
+FBLoginDialog.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/dankit-ios/!svn/ver/3/DanKit/Classes/FBLoginDialog.m
+END
+DanKitAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/dankit-ios/!svn/ver/3/DanKit/Classes/DanKitAppDelegate.h
+END
+AQGridViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/dankit-ios/!svn/ver/3/DanKit/Classes/AQGridViewController.h
+END
+FBDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/dankit-ios/!svn/ver/3/DanKit/Classes/FBDialog.h
+END
+AQGridViewCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/dankit-ios/!svn/ver/3/DanKit/Classes/AQGridViewCell.m
+END
+ATMProgressLayer.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/dankit-ios/!svn/ver/3/DanKit/Classes/ATMProgressLayer.m
+END
+Facebook.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/dankit-ios/!svn/ver/3/DanKit/Classes/Facebook.h
+END
+TimeEntryFormatter.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/dankit-ios/!svn/ver/3/DanKit/Classes/TimeEntryFormatter.m
+END
+UserManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/dankit-ios/!svn/ver/3/DanKit/Classes/UserManager.h
+END
+DanKitAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/dankit-ios/!svn/ver/3/DanKit/Classes/DanKitAppDelegate.m
+END
+AQGridViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/dankit-ios/!svn/ver/3/DanKit/Classes/AQGridViewController.m
+END
+AQGridView+CellLayout.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/dankit-ios/!svn/ver/3/DanKit/Classes/AQGridView+CellLayout.h
+END
+FBDialog.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/dankit-ios/!svn/ver/3/DanKit/Classes/FBDialog.m
+END
+Constants.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/dankit-ios/!svn/ver/3/DanKit/Classes/Constants.h
+END
+ATMHudView.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/dankit-ios/!svn/ver/3/DanKit/Classes/ATMHudView.h
+END
+ATMHudDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/dankit-ios/!svn/ver/3/DanKit/Classes/ATMHudDelegate.h
+END
+Facebook.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/dankit-ios/!svn/ver/3/DanKit/Classes/Facebook.m
+END
+UserManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/dankit-ios/!svn/ver/3/DanKit/Classes/UserManager.m
+END
+AQGridViewUpdateInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/dankit-ios/!svn/ver/3/DanKit/Classes/AQGridViewUpdateInfo.h
+END
+ATMHudView.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/dankit-ios/!svn/ver/3/DanKit/Classes/ATMHudView.m
+END
+ATMHud.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/dankit-ios/!svn/ver/3/DanKit/Classes/ATMHud.h
+END
+ASIDataCompressor.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/dankit-ios/!svn/ver/3/DanKit/Classes/ASIDataCompressor.h
+END
+AQGridViewUpdateInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/dankit-ios/!svn/ver/3/DanKit/Classes/AQGridViewUpdateInfo.m
+END
+ATMHud.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/dankit-ios/!svn/ver/3/DanKit/Classes/ATMHud.m
+END
+ASIDataCompressor.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/dankit-ios/!svn/ver/3/DanKit/Classes/ASIDataCompressor.m
+END
+ATMSoundFX.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/dankit-ios/!svn/ver/3/DanKit/Classes/ATMSoundFX.h
+END
+ASIDataDecompressor.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/dankit-ios/!svn/ver/3/DanKit/Classes/ASIDataDecompressor.h
+END
+ATMSoundFX.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/dankit-ios/!svn/ver/3/DanKit/Classes/ATMSoundFX.m
+END
+UserSignUpViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/dankit-ios/!svn/ver/3/DanKit/Classes/UserSignUpViewController.xib
+END
+ASIDataDecompressor.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/dankit-ios/!svn/ver/3/DanKit/Classes/ASIDataDecompressor.m
+END
+AQGridView.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/dankit-ios/!svn/ver/3/DanKit/Classes/AQGridView.h
+END
+UserSignUpViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/dankit-ios/!svn/ver/3/DanKit/Classes/UserSignUpViewController.h
+END
+NSObject+Helpers.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/dankit-ios/!svn/ver/3/DanKit/Classes/NSObject+Helpers.h
+END
+AQGridView.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/dankit-ios/!svn/ver/3/DanKit/Classes/AQGridView.m
+END
+ASIInputStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/dankit-ios/!svn/ver/3/DanKit/Classes/ASIInputStream.h
+END
+UserSignUpViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/dankit-ios/!svn/ver/3/DanKit/Classes/UserSignUpViewController.m
+END
+AQGridViewAnimatorItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/dankit-ios/!svn/ver/3/DanKit/Classes/AQGridViewAnimatorItem.h
+END
+ASIInputStream.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/dankit-ios/!svn/ver/3/DanKit/Classes/ASIInputStream.m
+END
+AQGridViewAnimatorItem.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/dankit-ios/!svn/ver/3/DanKit/Classes/AQGridViewAnimatorItem.m
+END
+AQGridViewUpdateItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/dankit-ios/!svn/ver/3/DanKit/Classes/AQGridViewUpdateItem.h
+END
+ASIDownloadCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/dankit-ios/!svn/ver/3/DanKit/Classes/ASIDownloadCache.h
+END
+AQGridViewUpdateItem.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/dankit-ios/!svn/ver/3/DanKit/Classes/AQGridViewUpdateItem.m
+END
+ASIProgressDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/dankit-ios/!svn/ver/3/DanKit/Classes/ASIProgressDelegate.h
+END
+ASIAuthenticationDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/dankit-ios/!svn/ver/3/DanKit/Classes/ASIAuthenticationDialog.h
+END
+ASIDownloadCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/dankit-ios/!svn/ver/3/DanKit/Classes/ASIDownloadCache.m
+END
+FBRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/dankit-ios/!svn/ver/3/DanKit/Classes/FBRequest.h
+END
+UsersViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/dankit-ios/!svn/ver/3/DanKit/Classes/UsersViewController.h
+END
+FBConnect.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/dankit-ios/!svn/ver/3/DanKit/Classes/FBConnect.h
+END
+ASIAuthenticationDialog.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/dankit-ios/!svn/ver/3/DanKit/Classes/ASIAuthenticationDialog.m
+END
+FBRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/dankit-ios/!svn/ver/3/DanKit/Classes/FBRequest.m
+END
+UsersViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/dankit-ios/!svn/ver/3/DanKit/Classes/UsersViewController.m
+END
+ATMHudQueueItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/dankit-ios/!svn/ver/3/DanKit/Classes/ATMHudQueueItem.h
+END
+NSIndexSet+AQIsSetContiguous.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/dankit-ios/!svn/ver/3/DanKit/Classes/NSIndexSet+AQIsSetContiguous.h
+END
+NSIndexSet+AQIndexesOutsideSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/dankit-ios/!svn/ver/3/DanKit/Classes/NSIndexSet+AQIndexesOutsideSet.h
+END
+ATMHudQueueItem.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/dankit-ios/!svn/ver/3/DanKit/Classes/ATMHudQueueItem.m
+END
+NSIndexSet+AQIsSetContiguous.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/dankit-ios/!svn/ver/3/DanKit/Classes/NSIndexSet+AQIsSetContiguous.m
+END
+NSIndexSet+AQIndexesOutsideSet.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/dankit-ios/!svn/ver/3/DanKit/Classes/NSIndexSet+AQIndexesOutsideSet.m
+END
+ASIHTTPRequestDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/dankit-ios/!svn/ver/3/DanKit/Classes/ASIHTTPRequestDelegate.h
+END
+NSManagedObject+Helpers.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/dankit-ios/!svn/ver/3/DanKit/Classes/NSManagedObject+Helpers.h
+END
+ATMTextLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/dankit-ios/!svn/ver/3/DanKit/Classes/ATMTextLayer.h
+END
+ASIHTTPRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/dankit-ios/!svn/ver/3/DanKit/Classes/ASIHTTPRequest.h
+END
+ATMTextLayer.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/dankit-ios/!svn/ver/3/DanKit/Classes/ATMTextLayer.m
+END

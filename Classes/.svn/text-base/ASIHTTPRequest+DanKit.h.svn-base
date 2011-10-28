@@ -1,0 +1,228 @@
+
+//
+//  Created by Daniel Morgan on 28/05/2010.
+//  Copyright 2010 Kinkub. All rights reserved.
+//
+
+//#import <Foundation/Foundation.h>
+
+#import "ASIHTTPRequest.h"
+#import "ASIFormDataRequest.h"
+#import "User.h"
+
+@interface ASIHTTPRequest (DanKit) 
+
+
+- (id)initWithAppURL:(NSURL *)newURL;
++ (NSURL *)urlFor:(NSString *)action;
+
++ (ASIHTTPRequest *)appRequestFor:(NSString *)action;
++ (ASIHTTPRequest *)appDeleteRequestFor:(NSString *)action;
+
+-(BOOL)isRemoteRequestOfType:(NSString *)type;
+
+/**
+ A title set by the webapp.. dictates with titles will be used. We'll use this for now.
+ **/
+
+
++ (ASIFormDataRequest *)appFormRequestFor:(NSString *)action withParams:(NSDictionary *)params;
++ (ASIFormDataRequest *)appPutRequestFor:(NSString *)action withParams:(NSDictionary *)params;
+
+#pragma mark Username Methods
+
++ (ASIFormDataRequest *)loginRequestWithUsername:(NSString *)username andPassword:(NSString *)password;
++ (ASIFormDataRequest *)signUpRequestWithUsername:(NSString *)username andPassword:(NSString *)password andUser:(User *)user;
+
+
+#pragma mark -
+
+-(void)withoutBasicAuthentification;
+
+@end
+
+@implementation ASIHTTPRequest (DanKit)
+
+- (id)initWithAppURL:(NSURL *)newURL{
+	
+	NSString *appVersion = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]; 
+	//NSString *platformString = [[UIDevice currentDevice] platformString]; 
+	//NSString *systemVersion = [UIDevice currentDevice].systemVersion; 
+	//ua = [[NSString stringWithFormat:@"HomeMarks iPhone/%@ (%@; %@)",appVersion] retain];
+	NSString *ua = [NSString stringWithFormat:@"DanKit iPhone/%@",appVersion];
+	
+	self = [self initWithURL:newURL]; 
+	self.timeOutSeconds = 20;
+	self.numberOfTimesToRetryOnTimeout = 3;
+	[self addRequestHeader:@"HTTP_ACCEPT" value:@"application/json"]; 
+	[self addRequestHeader:@"User-Agent" value:ua];
+	
+	//Set the auth
+	
+	User *user = [[UserManager sharedManager]currentUser];
+	
+	if (user) {
+		self.username = user.email; 
+		self.password = user.password;
+	}
+	
+	
+	return self;
+	
+}
+
+
+
+#pragma mark Utility
++ (NSURL *)urlFor:(NSString *)action {
+	
+	NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@/%@",KBaseUrl,action]];
+	return url;
+	
+}
+
+
++ (ASIHTTPRequest *)appRequestFor:(NSString *)action {
+	
+	ASIHTTPRequest *request = [[[ASIHTTPRequest alloc] initWithAppURL:[self urlFor:action]] autorelease];
+	
+	return request;
+}
+
++ (ASIHTTPRequest *)appDeleteRequestFor:(NSString *)action {
+	
+	ASIHTTPRequest *request = [[[ASIHTTPRequest alloc] initWithAppURL:[self urlFor:action]] autorelease];
+	request.requestMethod = @"DELETE";
+	
+	return request;
+}
+
+-(BOOL)isRemoteRequestOfType:(NSString *)type {
+	
+	if (!self.userInfo) {
+		return NO;
+	}
+	
+		
+	if (![self.userInfo objectForKey:KRemoteRequestType]) {
+		return NO;
+	}
+	else {
+		
+		NSString *requestType = [self.userInfo objectForKey:KRemoteRequestType];
+		
+		if ([requestType isEqualToString:type]) {
+			return YES; //The request has a value for the type key that matches our type.
+		}
+		else {
+			return NO; //It's of a different type.
+		}
+
+	}
+
+	
+}
+
++ (ASIFormDataRequest *)loginRequestWithUsername:(NSString *)username andPassword:(NSString *)password {
+		
+	NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:username,@"user[email]",password,@"user[password]",@"0",@"remember_me",nil];
+	
+	ASIFormDataRequest *request = [ASIFormDataRequest appFormRequestFor:@"users/sign_in.json" withParams:params];
+	[request withoutBasicAuthentification];
+	
+	//Set the type of request
+	request.userInfo = [NSDictionary dictionaryWithObject:KRemoteRequestTypeLogin forKey:KRemoteRequestType];
+	
+	return request;
+	
+}
+
++ (ASIFormDataRequest *)autoLoginRequestWithUsername:(NSString *)username andPassword:(NSString *)password {
+	
+	NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:username,@"user[email]",password,@"user[password]",@"0",@"remember_me",nil];
+	
+	ASIFormDataRequest *request = [ASIFormDataRequest appFormRequestFor:@"users/sign_in.json" withParams:params];
+	[request withoutBasicAuthentification];
+	
+	//Set the type of request
+	request.userInfo = [NSDictionary dictionaryWithObject:KRemoteRequestTypeAutoLogin forKey:KRemoteRequestType];
+	
+	return request;
+	
+}
+
+
++ (ASIFormDataRequest *)signUpRequestWithUsername:(NSString *)username andPassword:(NSString *)password andUser:(User *)user {
+	
+	NSMutableDictionary *params;
+	
+	if (!user) {
+		params = [NSMutableDictionary dictionaryWithObjectsAndKeys:username,@"user[email]",password,@"user[password]",@"0",@"remember_me",nil];
+	}
+	else {
+
+		NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithObjectsAndKeys:username,@"user[email]",password,@"user[password]",@"0",@"remember_me",nil];
+		
+		
+		//////////////
+		//
+		// Add any custom fields from FB
+		//
+
+		if (user.firstName) {
+			[dict setObject:user.firstName forKey:@"firstName"];
+		}
+		
+		if (user.lastName) {
+			[dict setObject:user.lastName forKey:@"lastName"];
+		}
+		
+		params = dict;
+		
+	}
+
+	
+	ASIFormDataRequest *request = [ASIFormDataRequest appFormRequestFor:@"users.json" withParams:params];
+	[request withoutBasicAuthentification];
+	
+	//Set the type of request
+	request.userInfo = [NSDictionary dictionaryWithObject:KRemoteRequestTypeSignUp forKey:KRemoteRequestType];
+	
+	return request;
+	
+}
+
+
++ (ASIFormDataRequest *)appFormRequestFor:(NSString *)action withParams:(NSDictionary *)params {
+	ASIFormDataRequest *request = [[[ASIFormDataRequest alloc] initWithAppURL:[self urlFor:action]] autorelease];
+	
+	if (params != nil) {
+		for (id key in params) {
+			[request setPostValue:[params objectForKey:key] forKey:key]; 
+		} 
+	}
+	
+	request.requestMethod = @"POST";
+	return request;
+}
+
++ (ASIFormDataRequest *)appPutRequestFor:(NSString *)action withParams:(NSDictionary *)params {
+	ASIFormDataRequest *request = [self appFormRequestFor:action withParams:params];
+	request.requestMethod = @"PUT";
+	return request;
+}
+
+//Remove the http basic auth for logging in and signup so it works properly!
+//Otherwise devise just ignores the params for username and password.
+-(void)withoutBasicAuthentification {
+	
+	self.username = nil;
+	self.password = nil;	
+	[ASIHTTPRequest clearSession];
+	
+}
+
+
+@end
+
+

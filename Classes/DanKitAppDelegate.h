@@ -1,0 +1,49 @@
+//
+//  DanKitAppDelegate.h
+//  DanKit
+//
+//  Created by Daniel Morgan on 29/05/2011.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
+#import "ATMHudDelegate.h"
+#import "NSManagedObject+Helpers.h"
+
+@class ATMHud;
+@class UserAuthenticationViewController;
+
+@interface DanKitAppDelegate : NSObject <ATMHudDelegate, UIApplicationDelegate, UITabBarControllerDelegate> {
+    
+    UIWindow *window;
+	UITabBarController *tabBarController;
+	ATMHud *hud;
+	
+	UserAuthenticationViewController *authenticationController;
+
+    
+@private
+    NSManagedObjectContext *managedObjectContext_;
+    NSManagedObjectModel *managedObjectModel_;
+    NSPersistentStoreCoordinator *persistentStoreCoordinator_;
+}
+
+@property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
+
+@property (nonatomic, retain, readonly) NSManagedObjectContext *managedObjectContext;
+@property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
+@property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+@property (nonatomic, retain) UserAuthenticationViewController *authenticationController;
+
+@property (nonatomic, retain) ATMHud *hud;
+
+- (NSURL *)applicationDocumentsDirectory;
+- (void)saveContext;
+
+//Auth Methods
+-(void)challengeAuthenticationShowLogin:(BOOL)login orShowSignUp:(BOOL)signup; //Shown on no saved user or failed deets
+
+@end
+

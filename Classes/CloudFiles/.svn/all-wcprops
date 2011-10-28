@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/dankit-ios/!svn/ver/3/DanKit/Classes/CloudFiles
+END
+ASICloudFilesCDNRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/dankit-ios/!svn/ver/3/DanKit/Classes/CloudFiles/ASICloudFilesCDNRequest.m
+END
+ASICloudFilesContainer.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/dankit-ios/!svn/ver/3/DanKit/Classes/CloudFiles/ASICloudFilesContainer.h
+END
+ASICloudFilesObjectRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/dankit-ios/!svn/ver/3/DanKit/Classes/CloudFiles/ASICloudFilesObjectRequest.m
+END
+ASICloudFilesObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/dankit-ios/!svn/ver/3/DanKit/Classes/CloudFiles/ASICloudFilesObject.h
+END
+ASICloudFilesContainer.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/dankit-ios/!svn/ver/3/DanKit/Classes/CloudFiles/ASICloudFilesContainer.m
+END
+ASICloudFilesRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/dankit-ios/!svn/ver/3/DanKit/Classes/CloudFiles/ASICloudFilesRequest.h
+END
+ASICloudFilesContainerRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/dankit-ios/!svn/ver/3/DanKit/Classes/CloudFiles/ASICloudFilesContainerRequest.h
+END
+ASICloudFilesContainerXMLParserDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/dankit-ios/!svn/ver/3/DanKit/Classes/CloudFiles/ASICloudFilesContainerXMLParserDelegate.h
+END
+ASICloudFilesObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/dankit-ios/!svn/ver/3/DanKit/Classes/CloudFiles/ASICloudFilesObject.m
+END
+ASICloudFilesCDNRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/dankit-ios/!svn/ver/3/DanKit/Classes/CloudFiles/ASICloudFilesCDNRequest.h
+END
+ASICloudFilesRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/dankit-ios/!svn/ver/3/DanKit/Classes/CloudFiles/ASICloudFilesRequest.m
+END
+ASICloudFilesObjectRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/dankit-ios/!svn/ver/3/DanKit/Classes/CloudFiles/ASICloudFilesObjectRequest.h
+END
+ASICloudFilesContainerRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/dankit-ios/!svn/ver/3/DanKit/Classes/CloudFiles/ASICloudFilesContainerRequest.m
+END
+ASICloudFilesContainerXMLParserDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/dankit-ios/!svn/ver/3/DanKit/Classes/CloudFiles/ASICloudFilesContainerXMLParserDelegate.m
+END
